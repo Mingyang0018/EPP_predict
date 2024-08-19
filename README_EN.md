@@ -47,7 +47,7 @@ First, download this repository:
 
 ```shell
 git clone https://github.com/Mingyang0018/EPP_predict.git
-cd EPP
+cd EPP_predict
 ```
 
 It is recommended to use conda to create a virtual environment and activate it.

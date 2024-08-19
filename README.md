@@ -47,7 +47,7 @@ EPP_39k在额外数据上的预测效果如下：
 
 ```shell
 git clone https://github.com/Mingyang0018/EPP_predict.git
-cd EPP
+cd EPP_predict
 ```
 
 建议使用conda创建虚拟环境，然后激活环境。
