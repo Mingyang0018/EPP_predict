@@ -46,7 +46,7 @@ EPP_39k在额外数据上的预测效果如下：
 首先下载本仓库：
 
 ```shell
-git clone https://github.com/Mingyang0018/EPP.git
+git clone https://github.com/Mingyang0018/EPP_predict.git
 cd EPP
 ```
 
@@ -78,21 +78,6 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```shell
 pip install -r requirements.txt
 ```
-
-在终端中输入以下命令，启动Jupyter Notebook:
-
-```shell
-jupyter notebook
-```
-
-## 代码调用
-
-在Jupyter Notebook中按顺序运行notebooks_and_code中的notebook文件代码，也可以单独运行任何一个notebook文件中的代码。notebook文件说明如下：
-
-- 01_data_preprocessing.ipynb: 获取数据并处理数据
-- 02_model_training.ipynb: 在训练数据上训练模型
-- 03_model_evaluation.ipynb: 在测试数据上评估模型
-- 04_model_prediction.ipynb: 使用训练的模型在新数据上进行预测
 
 ## 快速预测
 

@@ -46,7 +46,7 @@ All code is included in the "notebooks_and_code" folder. All generated files are
 First, download this repository:
 
 ```shell
-git clone https://github.com/Mingyang0018/EPP.git
+git clone https://github.com/Mingyang0018/EPP_predict.git
 cd EPP
 ```
 
@@ -78,21 +78,6 @@ Then use pip to install dependencies:
 ```shell
 pip install -r requirements.txt
 ```
-
-Start Jupyter Notebook in the terminal:
-
-```shell
-jupyter notebook
-```
-
-## Code Execution
-
-Run the notebook files in the "notebooks_and_code" folder in order in Jupyter Notebook, or run any notebook file individually. The notebook files are as follows:
-
-- 01_data_preprocessing.ipynb: Obtain and preprocess data
-- 02_model_training.ipynb: Train the model on training set
-- 03_model_evaluation.ipynb: Evaluate the model on test set
-- 04_model_prediction.ipynb: Use the trained model to make predictions on new data
 
 ## Quick Prediction
 
