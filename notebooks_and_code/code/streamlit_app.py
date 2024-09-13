@@ -427,3 +427,8 @@ if st.button('预测', type='primary', key='predict'):
     # 显示气球动画
     # Display balloon animation
     st.balloons()
+    if torch.cuda.is_available():
+        # 手动清理GPU内存
+        # Manually clear GPU memory
+        torch.cuda.empty_cache()
+    
